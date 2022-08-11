@@ -1,0 +1,11 @@
+alias ll="ls -l"
+alias lal="ls -al"
+alias zshcfg="nvim ~/.config/zsh/.zshrc"
+alias zshsrc="source ~/.config/zsh/.zshrc"
+alias pac="sudo pacman"
+alias termcfg="nvim ~/.config/alacritty/alacritty.yml"
+alias aliascfg="nvim ~/.config/zsh/alias.zsh"
+alias tsm="transmission-remote"
+alias vifmrc="nvim ~/.config/vifm/vifmrc"
+alias cfg="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
+
