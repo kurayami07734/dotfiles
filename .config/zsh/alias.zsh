@@ -8,4 +8,3 @@ alias aliascfg="nvim ~/.config/zsh/alias.zsh"
 alias tsm="transmission-remote"
 alias vifmrc="nvim ~/.config/vifm/vifmrc"
 alias cfg="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
-
