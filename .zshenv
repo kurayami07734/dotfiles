@@ -25,6 +25,7 @@ export PATH=$ANDROID/platform-tools/:$PATH
 
 export ANDROID_SDK=$HOME/ANDROID
 export PATH=$ANDROID_SDK:$PATH
+export PATH=$PATH:"$HOME/.cache/pub/cache"
 
 export FLUTTER=$ANDROID/flutter
 export PATH=$FLUTTER/bin/:$PATH
