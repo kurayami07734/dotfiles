@@ -180,7 +180,7 @@ super + Print
 
 # Shortcuts
 super + w 
-  brave
+  firefox
 
 super + n 
   thunar  
