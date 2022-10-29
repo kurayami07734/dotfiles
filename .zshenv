@@ -18,12 +18,12 @@ export PUB_CACHE="$XDG_CACHE_HOME/pub"
 export LESSHISTFILE="-"
 export ERRFILE="/dev/null"
 
-export ANDROID=$HOME/android
-export PATH=$ANDROID/cmdline-tools/latest/:$PATH
-export PATH=$ANDROID/cmdline-tools/latest/bin/:$PATH
+export ANDROID=/1tb/binaries
+export PATH=$ANDROID/cmdline-tools/:$PATH
+export PATH=$ANDROID/cmdline-tools/bin/:$PATH
 export PATH=$ANDROID/platform-tools/:$PATH
 
-export ANDROID_SDK=$HOME/ANDROID
+export ANDROID_SDK=$ANDROID
 export PATH=$ANDROID_SDK:$PATH
 export PATH="$PATH":"$HOME/.cache/pub/bin"
 
