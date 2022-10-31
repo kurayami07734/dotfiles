@@ -23,13 +23,13 @@ dynamic_title: true
 # Font Customization
 font:
   normal:
-    family: JetBrains Mono Nerd Font
+    family: Iosevka Term
     style: Regular
   bold:
-    family: JetBrains Mono Nerd Font
+    family: Iosevka Term
     style: Bold
   italic:
-    family: JetBrains Mono Nerd Font
+    family: Iosevka Term
     style: Italic
   size: 9
   offset:
