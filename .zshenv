@@ -4,6 +4,7 @@ export BROWSER=brave
 export READER=zathura
 export KEYTIMEOUT=1
 export EDITOR="nvim"
+export SYSTEMD_EDITOR="nvim"
 export TERMINAL="alacritty"
 
 export XDG_CONFIG_HOME="$HOME/.config"
