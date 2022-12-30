@@ -14,6 +14,22 @@ vicd() # to change to the directory navigated to
   cd "$dst"
 }
 
+rangercd () {
+    tmp="$(mktemp)"
+    ranger --choosedir="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp"
+        if [ -d "$dir" ]; then
+            if [ "$dir" != "$(pwd)" ]; then
+                cd "$dir"
+            fi
+        fi
+    fi
+}
+
+bindkey -s '^o' 'rangercd\n'
+# bindkey -s "^o" "vicd\n"
 source ~/.config/zsh/alias.zsh
 
 autoload -U compinit
@@ -24,6 +40,4 @@ _comp_options+=(globdots)
 
 bindkey -v
 bindkey "^ " autosuggest-accept
-bindkey -s "^o" "vicd\n"
-
 eval "$(starship init zsh)"
