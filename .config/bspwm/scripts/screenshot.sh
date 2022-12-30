@@ -7,6 +7,7 @@ option2='currently focused window'
 options="$option0\n$option1\n$option2"
 
 # save file
+mkdir /1tb/screenshots/$(date +%b%G)
 file="/1tb/screenshots/$(date +%b%G)/screenshot-$(date +%F_%T).png"
 
 selected="$(echo -e "$options" | rofi -lines 3 -dmenu -p 'scrot')"
