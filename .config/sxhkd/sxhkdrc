@@ -173,7 +173,7 @@ XF86MonBrightnessDown
 
 # Screenshot
 Print
-  scrot ~/$(xdg-user-dir PICTURES)/Screenshot-$(date +%F_%T).png
+  scrot ~/1tb/screenshots/$(date +%b%G)/Screenshot-$(date +%F_%T).png
 
 super + Print
   ~/.config/bspwm/scripts/screenshot.sh
