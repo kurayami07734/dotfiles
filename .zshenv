@@ -31,3 +31,4 @@ export PATH="$PATH":"$HOME/.cache/pub/bin"
 export FLUTTER=$ANDROID/flutter
 export PATH=$FLUTTER/bin/:$PATH
 export PATH=$PATH:"$HOME/.local/bin"
+. "$HOME/.cargo/env"
