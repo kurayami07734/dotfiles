@@ -29,6 +29,8 @@ export PATH=$ANDROID_SDK:$PATH
 export PATH="$PATH":"$HOME/.cache/pub/bin"
 
 export FLUTTER=$ANDROID/flutter
+export CARGO_HOME=$HOME/.cache/cargo
+export RUSTUP_HOME=$HOME/.cache/rustup
 export PATH=$FLUTTER/bin/:$PATH
 export PATH=$PATH:"$HOME/.local/bin"
-. "$HOME/.cargo/env"
+. "$HOME/.cache/cargo/env"
