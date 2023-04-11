@@ -33,4 +33,5 @@ export CARGO_HOME=$HOME/.cache/cargo
 export RUSTUP_HOME=$HOME/.cache/rustup
 export PATH=$FLUTTER/bin/:$PATH
 export PATH=$PATH:"$HOME/.local/bin"
+export PATH=$PATH:"$HOME/.cache/cargo/bin"
 . "$HOME/.cache/cargo/env"
