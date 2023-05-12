@@ -19,19 +19,17 @@ export PUB_CACHE="$XDG_CACHE_HOME/pub"
 export LESSHISTFILE="-"
 export ERRFILE="/dev/null"
 
-export ANDROID=/1tb/binaries
-export PATH=$ANDROID/cmdline-tools/:$PATH
-export PATH=$ANDROID/cmdline-tools/bin/:$PATH
-export PATH=$ANDROID/platform-tools/:$PATH
+export ANDROID_HOME=/1tb/bin
+export PATH=$ANDROID_HOME/cmdline-tools/tools:$PATH
+export PATH=$ANDROID_HOME/cmdline-tools/tools/bin:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME:$PATH
 
-export ANDROID_SDK=$ANDROID
-export PATH=$ANDROID_SDK:$PATH
-export PATH="$PATH":"$HOME/.cache/pub/bin"
+export FLUTTER=$ANDROID_HOME/flutter
+export PATH=$FLUTTER/bin:$PATH
 
-export FLUTTER=$ANDROID/flutter
 export CARGO_HOME=$HOME/.cache/cargo
 export RUSTUP_HOME=$HOME/.cache/rustup
-export PATH=$FLUTTER/bin/:$PATH
 export PATH=$PATH:"$HOME/.local/bin"
 export PATH=$PATH:"$HOME/.cache/cargo/bin"
 . "$HOME/.cache/cargo/env"
