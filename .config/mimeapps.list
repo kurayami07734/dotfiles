@@ -31,3 +31,5 @@ image/jpeg=code-oss.desktop;
 application/epub+zip=firefox.desktop;
 application/pdf=firefox.desktop;
 image/png=feh.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=code-oss.desktop;firefox.desktop;
+application/x-ipynb+json=code-oss.desktop;
