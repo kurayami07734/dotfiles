@@ -1,0 +1,95 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[[colors.indexed_colors]]
+color = "0xfd971f"
+index = 16
+
+[[colors.indexed_colors]]
+color = "0xcc6633"
+index = 17
+
+[[colors.indexed_colors]]
+color = "0x383830"
+index = 18
+
+[[colors.indexed_colors]]
+color = "0x49483e"
+index = 19
+
+[[colors.indexed_colors]]
+color = "0xa59f85"
+index = 20
+
+[[colors.indexed_colors]]
+color = "0xf5f4f1"
+index = 21
+
+[colors.bright]
+black = "0x75715e"
+blue = "0x66d9ef"
+cyan = "0xa1efe4"
+green = "0xa6e22e"
+magenta = "0xae81ff"
+red = "0xf92672"
+white = "0xf9f8f5"
+yellow = "0xf4bf75"
+
+[colors.cursor]
+cursor = "0xf8f8f2"
+text = "0x272822"
+
+[colors.normal]
+black = "0x272822"
+blue = "0x66d9ef"
+cyan = "0xa1efe4"
+green = "0xa6e22e"
+magenta = "0xae81ff"
+red = "0xf92672"
+white = "0xf8f8f2"
+yellow = "0xf4bf75"
+
+[colors.primary]
+background = "0x272822"
+foreground = "0xf8f8f2"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 9
+
+[font.bold]
+family = "IosevkaTerm Nerd Font"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "IosevkaTerm Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "IosevkaTerm Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+decorations = "full"
+
+[window.dimensions]
+columns = 90
+lines = 27
+
+[window.padding]
+x = 6
+y = 6

@@ -173,10 +173,7 @@ XF86MonBrightnessDown
 
 # Screenshot
 Print
-  mkdir /1tb/screenshots/$(date +%G_%b)/;scrot /1tb/screenshots/$(date +%G_%b)/screenshot-$(date +%F_%T).png
-
-super + Print
-  ~/.config/bspwm/scripts/screenshot.sh
+  flameshot gui
 
 # Shortcuts
 super + w 
