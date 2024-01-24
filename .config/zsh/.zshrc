@@ -1,7 +1,13 @@
 # .zshrc
+setopt SHARE_HISTORY
 HISTFILE=~/.cache/zsh/history
 HISTSIZE=10000
 SAVEHIST=$HISTSIZE
+setopt HIST_EXPIRE_DUPS_FIRST
+
+# autocompletion using arrow keys (based on history)
+bindkey '\e[A' history-search-backward
+bindkey '\e[B' history-search-forward
 
 vicd() # to change to the directory navigated to
 {
@@ -30,6 +36,7 @@ rangercd () {
 
 bindkey -s '^o' 'rangercd\n'
 bindkey -s '^t' 'rangercd /1tb/torrents\n'
+
 # bindkey -s "^o" "vicd\n"
 source ~/.config/zsh/alias.zsh
 
@@ -41,6 +48,7 @@ _comp_options+=(globdots)
 
 bindkey -v
 bindkey "^ " autosuggest-accept
+
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 eval "$(starship init zsh)"

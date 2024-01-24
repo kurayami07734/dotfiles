@@ -1,3 +1,5 @@
 [user]
+	email = adityaghidora@skylarkdrones.com
 	name = Aditya Ghidora
-	email = adityaghidora@gmail.com
+[core]
+	editor = vim

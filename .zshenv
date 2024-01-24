@@ -14,6 +14,7 @@ export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 export WGETRC="$HOME/.config/wgetrc"
 export INPUTRC="$HOME/.config/inputrc"
 export PUB_CACHE="$XDG_CACHE_HOME/pub"
+export npm_config_cache="$XDG_CACHE_HOME/npm"
 export LESSHISTFILE="-"
 export ERRFILE="/dev/null"
 
