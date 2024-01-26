@@ -35,7 +35,7 @@ rangercd () {
 }
 
 bindkey -s '^o' 'rangercd\n'
-bindkey -s '^t' 'rangercd /1tb/torrents\n'
+bindkey -s '^t' 'rangercd /1tb/torrent\n'
 
 # bindkey -s "^o" "vicd\n"
 source ~/.config/zsh/alias.zsh

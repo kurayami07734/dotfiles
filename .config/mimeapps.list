@@ -14,6 +14,7 @@ application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 application/pdf=firefox.desktop
 image/png=feh.desktop
+application/json=vim.desktop
 
 [Added Associations]
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=code-oss.desktop;
