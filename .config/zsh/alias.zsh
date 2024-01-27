@@ -24,6 +24,10 @@ alias pf="pacman -Ss"
 alias d="docker"
 alias dc="docker-compose"
 
+# pnpm
+alias p="pnpm"
+alias px="pnpm dlx"
+
 # git 
 alias g="git"
 alias gs="git status"
