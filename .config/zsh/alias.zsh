@@ -10,7 +10,7 @@ alias ll="ls -l"
 alias lal="ls -al"
 alias sa="cat ~/.config/zsh/alias.zsh"
 alias acfs="auto-cpufreq --stats"
-alias mrs="sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+alias mrs="sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist --verbose && sudo pacman -Syyu"
 
 # systemctl
 alias sc="sudo systemctl"
