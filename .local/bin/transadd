@@ -2,4 +2,6 @@
 # Mimeapp script to add torrent to transmission daemon
 
 pidof transmission-daemon >/dev/null || (transmission-daemon && notify-send "Starting transmission daemon...")
-transmission-remote -a "$@" && notify-send "$@ added."
+transmission-remote -a "$@"
+name=$(echo $@ | sed -n 's/.*&dn=\([^&]*\)&.*/\1/p' | sed -e "s/%\([0-9A-F][0-9A-F]\)/\\\\\x\1/g" | xargs -0 echo -e)
+notify-send "$name added."
