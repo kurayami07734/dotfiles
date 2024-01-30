@@ -3,3 +3,5 @@
 	name = Aditya Ghidora
 [core]
 	editor = vim
+[init]
+	defaultBranch = main
