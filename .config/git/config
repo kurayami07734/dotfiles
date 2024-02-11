@@ -1,7 +1,9 @@
 [user]
-	email = adityaghidora@skylarkdrones.com
+	email = adityaghidora@gmail.com
 	name = Aditya Ghidora
 [core]
 	editor = vim
 [init]
 	defaultBranch = main
+[includeIf "gitdir:/1tb/skylark/"]
+	path = /1tb/skylark/.gitconfig
