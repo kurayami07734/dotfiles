@@ -7,7 +7,7 @@ super + Return
 	alacritty
 
 super + f
-	alacritty -e lf
+	alacritty -e ranger
 
 # program launcher
 super + d

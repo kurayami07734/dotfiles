@@ -9,9 +9,9 @@ setopt HIST_EXPIRE_DUPS_FIRST
 bindkey '\e[A' history-search-backward
 bindkey '\e[B' history-search-forward
 
-lfcd () {
+rangercd () {
     tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
+    ranger --choosedir="$tmp" "$@"
     if [ -f "$tmp" ]; then
         dir="$(cat "$tmp")"
         rm -f "$tmp"
@@ -23,11 +23,11 @@ lfcd () {
     fi
 }
 
-bindkey -s '^o' 'lfcd\n'
-bindkey -s '^t' 'lfcd /1tb/torrents\n'
-bindkey -s '^z' 'lfcd /1tb/skylark\n'
-bindkey -s '^f' 'lfcd /1tb/opensource\n'
-bindkey -s '^a' 'lfcd /1tb/coding\n'
+bindkey -s '^o' 'rangercd\n'
+bindkey -s '^t' 'rangercd /1tb/torrents\n'
+bindkey -s '^z' 'rangercd /1tb/skylark\n'
+bindkey -s '^f' 'rangercd /1tb/opensource\n'
+bindkey -s '^a' 'rangercd /1tb/coding\n'
 
 source ~/.config/zsh/alias.zsh
 
