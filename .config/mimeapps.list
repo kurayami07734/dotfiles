@@ -15,6 +15,8 @@ application/x-extension-xht=firefox.desktop
 application/pdf=firefox.desktop
 image/png=feh.desktop
 application/json=vim.desktop
+x-scheme-handler/postman=Postman.desktop
+image/jpeg=feh.desktop
 
 [Added Associations]
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=code-oss.desktop;
@@ -28,7 +30,7 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
-image/jpeg=code-oss.desktop;
+image/jpeg=code-oss.desktop;feh.desktop;
 application/epub+zip=firefox.desktop;
 application/pdf=firefox.desktop;
 image/png=feh.desktop;

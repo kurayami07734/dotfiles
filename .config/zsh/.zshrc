@@ -41,6 +41,9 @@ bindkey -v
 
 eval "$(starship init zsh)"
 
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
 # pnpm
 export PNPM_HOME="/home/ghidora/.local/share/pnpm"
 case ":$PATH:" in
