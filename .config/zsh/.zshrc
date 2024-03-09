@@ -51,3 +51,5 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+[ -f "/home/ghidora/.ghcup/env" ] && source "/home/ghidora/.ghcup/env" # ghcup-env
