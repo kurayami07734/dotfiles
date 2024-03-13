@@ -12,6 +12,7 @@ alias sa="cat ~/.config/zsh/alias.zsh"
 alias acfs="auto-cpufreq --stats"
 alias mrs="sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist --verbose && sudo pacman -Syyu"
 alias ptp="sudo powertop"
+alias t="tmux -u"
 
 # systemctl
 alias sc="sudo systemctl"
@@ -20,14 +21,6 @@ alias ss="systemctl status"
 # pacman
 alias pc="sudo pacman"
 alias pf="pacman -Ss"
-
-# docker
-alias d="docker"
-alias dc="docker-compose"
-
-# pnpm
-alias p="pnpm"
-alias px="pnpm dlx"
 
 # git 
 alias g="git"
@@ -45,3 +38,11 @@ alias gpl="git pull"
 alias gr="git rebase"
 alias gs="git status"
 alias gsh="git stash"
+
+# docker
+alias d="docker"
+alias dc="docker-compose"
+
+# pnpm
+alias p="pnpm"
+alias px="pnpm dlx"
