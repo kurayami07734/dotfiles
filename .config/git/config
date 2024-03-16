@@ -3,7 +3,7 @@
 	name = Aditya Ghidora
 [core]
 	editor = vim
-	pager = delta --dark
+	pager = delta --dark --side-by-side
 [init]
 	defaultBranch = main
 [includeIf "gitdir:/1tb/skylark/"]
