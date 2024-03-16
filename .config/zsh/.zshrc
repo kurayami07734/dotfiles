@@ -39,6 +39,7 @@ _comp_options+=(globdots)
 
 bindkey -v
 
+eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
 export NVM_DIR="$HOME/.config/nvm"
