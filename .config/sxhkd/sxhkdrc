@@ -11,7 +11,7 @@ super + t
   alacritty -e tmux -u
 
 # Peek screen recorder
-super + shift + p
+super + Print
   peek
 
 super + f
@@ -53,6 +53,10 @@ super + Escape
 #
 # bspwm hotkeys
 #
+
+# change desktops
+super + <number>
+
 
 # quit/restart bspwm
 super + alt + {q,r}
